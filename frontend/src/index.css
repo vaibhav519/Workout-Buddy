@@ -48,12 +48,12 @@ header a {
 }
 .workout-details h4 {
   margin: 0 0 10px 0;
-  font-size: 1.2em;
+  font-size: 1.3em;
   color: var(--primary);
 }
 .workout-details p {
   margin: 0;
-  font-size: 0.9em;
+  font-size: 1em;
   color: #555;
 }
 .workout-details span {
@@ -133,4 +133,16 @@ form.signup, form.login {
   padding: 20px;
   background: #fff;
   border-radius: 4px;
+}
+
+/* Input title for exercise list */
+.input-title {
+  font-size: 2rem; /* Adjust the font size as needed */
+  font-weight: bold;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  outline: none;
+  background-color: transparent;
+  margin-bottom: 1rem; /* Adjust the spacing as needed */
+  color: #333
 }

@@ -71,9 +71,10 @@ export const WorkoutForm = () => {
 
       <label>Reps: </label>
       <input
-        type="number"
+        type="text"
         onChange={(e) => setReps(e.target.value)}
         value={reps}
+        placeholder="Enter repetitions for each set (e.g., 10, 12, 15)"
       ></input>
 
       <button>Add Workout</button>
